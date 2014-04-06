@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: hsl( 22, 40%, 40% );
+    color: #FFF;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 24px;
+    line-height: 1.4em;
+}
+
+::selection {
+    background-color: hsla( 0, 40%, 0%, 0.6 );
+    color: #FFF;
+}
+
+/** COMMON **/
+a { color: inherit; }
+a:hover { text-decoration: none; }
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    font-family: "Cantora One", sans-serif;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-size: 1.66666667em;
+}
+
+.une-conteneur {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nettoyer {
+    clear: both;
+}
+
+/** HEADER **/
+.le-head {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+.grand-poirot {
+    float: left;
+    width: 430px;
+    height: 360px;
+}
+
+/** LE NAVIGATION **/
+.naviguer {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.naviguer > li {
+    display: inline-block;
+}
+
+.naviguer > li > a {
+    display: inline-block;
+    padding: 10px;
+}
+
+/** LES PANEL **/
+.panel {
+    margin: 0;
+    padding: 10px;
+}
+
+.panel-jeune {
+    background-color: hsl( 40, 90%, 60% );
+    color: #444;
+}
+
+.panel-brun {
+    background-color: hsl( 22, 40%, 60% );
+}
+
+.panel h2 {
+    margin-top: 10px;
+}
+
+
+/** RÉPONDEZ S'IL VOUS PLAIT! **/
+@media (max-width:480px) {
+    body {
+        font-size: 16px;
+    }
+}
